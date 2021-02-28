@@ -7,30 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92A0B5DC217C6B66000B93FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0B5DB217C6B66000B93FF /* AppDelegate.swift */; };
-		92A0B5DE217C6B66000B93FF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A0B5DD217C6B66000B93FF /* art.scnassets */; };
-		92A0B5E0217C6B66000B93FF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0B5DF217C6B66000B93FF /* GameViewController.swift */; };
-		92A0B5E3217C6B66000B93FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A0B5E1217C6B66000B93FF /* Main.storyboard */; };
-		92A0B5E5217C6B6A000B93FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A0B5E4217C6B6A000B93FF /* Assets.xcassets */; };
-		92A0B5E8217C6B6A000B93FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A0B5E6217C6B6A000B93FF /* LaunchScreen.storyboard */; };
+		92A0B5F6217C6CFA000B93FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0B5F5217C6CFA000B93FF /* AppDelegate.swift */; };
+		92A0B5F8217C6CFA000B93FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0B5F7217C6CFA000B93FF /* ViewController.swift */; };
+		92A0B5FA217C6CFA000B93FF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A0B5F9217C6CFA000B93FF /* art.scnassets */; };
+		92A0B5FC217C6CFB000B93FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A0B5FB217C6CFB000B93FF /* Assets.xcassets */; };
+		92A0B5FF217C6CFB000B93FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A0B5FD217C6CFB000B93FF /* Main.storyboard */; };
+		92A0B607217C8483000B93FF /* 3DconnexionClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A0B606217C8483000B93FF /* 3DconnexionClient.framework */; };
+		92A0B60A217C918C000B93FF /* Mouse.mm in Sources */ = {isa = PBXBuildFile; fileRef = 92A0B609217C918C000B93FF /* Mouse.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		92A0B5D8217C6B66000B93FF /* 3D Mouse Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Mouse Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		92A0B5DB217C6B66000B93FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92A0B5DD217C6B66000B93FF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		92A0B5DF217C6B66000B93FF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		92A0B5E2217C6B66000B93FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92A0B5E4217C6B6A000B93FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		92A0B5E7217C6B6A000B93FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		92A0B5E9217C6B6A000B93FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A0B5F3217C6CFA000B93FF /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A0B5F5217C6CFA000B93FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92A0B5F7217C6CFA000B93FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92A0B5F9217C6CFA000B93FF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		92A0B5FB217C6CFB000B93FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92A0B5FE217C6CFB000B93FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92A0B600217C6CFB000B93FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A0B601217C6CFB000B93FF /* TestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestApp.entitlements; sourceTree = "<group>"; };
+		92A0B606217C8483000B93FF /* 3DconnexionClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = 3DconnexionClient.framework; path = ../../../../Library/Frameworks/3DconnexionClient.framework; sourceTree = "<group>"; };
+		92A0B608217C918B000B93FF /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		92A0B609217C918C000B93FF /* Mouse.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Mouse.mm; sourceTree = "<group>"; };
+		92A0B60B217C91AF000B93FF /* Mouse.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mouse.hpp; sourceTree = "<group>"; };
+		92A0B60C217CBD36000B93FF /* 3D Mouse Test Host.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "3D Mouse Test Host.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		92A0B5D5217C6B65000B93FF /* Frameworks */ = {
+		92A0B5F0217C6CFA000B93FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A0B607217C8483000B93FF /* 3DconnexionClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,51 +47,64 @@
 		92A0B5CF217C6B65000B93FF = {
 			isa = PBXGroup;
 			children = (
-				92A0B5DA217C6B66000B93FF /* 3D Mouse Test */,
+				92A0B5F4217C6CFA000B93FF /* Sources */,
 				92A0B5D9217C6B66000B93FF /* Products */,
+				92A0B605217C8483000B93FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		92A0B5D9217C6B66000B93FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92A0B5D8217C6B66000B93FF /* 3D Mouse Test.app */,
+				92A0B5F3217C6CFA000B93FF /* TestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92A0B5DA217C6B66000B93FF /* 3D Mouse Test */ = {
+		92A0B5F4217C6CFA000B93FF /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				92A0B5DB217C6B66000B93FF /* AppDelegate.swift */,
-				92A0B5DD217C6B66000B93FF /* art.scnassets */,
-				92A0B5DF217C6B66000B93FF /* GameViewController.swift */,
-				92A0B5E1217C6B66000B93FF /* Main.storyboard */,
-				92A0B5E4217C6B6A000B93FF /* Assets.xcassets */,
-				92A0B5E6217C6B6A000B93FF /* LaunchScreen.storyboard */,
-				92A0B5E9217C6B6A000B93FF /* Info.plist */,
+				92A0B60C217CBD36000B93FF /* 3D Mouse Test Host.entitlements */,
+				92A0B5F5217C6CFA000B93FF /* AppDelegate.swift */,
+				92A0B5F7217C6CFA000B93FF /* ViewController.swift */,
+				92A0B60B217C91AF000B93FF /* Mouse.hpp */,
+				92A0B609217C918C000B93FF /* Mouse.mm */,
+				92A0B5F9217C6CFA000B93FF /* art.scnassets */,
+				92A0B5FB217C6CFB000B93FF /* Assets.xcassets */,
+				92A0B5FD217C6CFB000B93FF /* Main.storyboard */,
+				92A0B600217C6CFB000B93FF /* Info.plist */,
+				92A0B601217C6CFB000B93FF /* TestApp.entitlements */,
+				92A0B608217C918B000B93FF /* Bridging-Header.h */,
 			);
-			path = "3D Mouse Test";
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		92A0B605217C8483000B93FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A0B606217C8483000B93FF /* 3DconnexionClient.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92A0B5D7217C6B65000B93FF /* 3D Mouse Test */ = {
+		92A0B5F2217C6CFA000B93FF /* TestApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92A0B5EC217C6B6A000B93FF /* Build configuration list for PBXNativeTarget "3D Mouse Test" */;
+			buildConfigurationList = 92A0B602217C6CFB000B93FF /* Build configuration list for PBXNativeTarget "TestApp" */;
 			buildPhases = (
-				92A0B5D4217C6B65000B93FF /* Sources */,
-				92A0B5D5217C6B65000B93FF /* Frameworks */,
-				92A0B5D6217C6B65000B93FF /* Resources */,
+				92A0B5EF217C6CFA000B93FF /* Sources */,
+				92A0B5F0217C6CFA000B93FF /* Frameworks */,
+				92A0B5F1217C6CFA000B93FF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "3D Mouse Test";
-			productName = "3D Mouse Test";
-			productReference = 92A0B5D8217C6B66000B93FF /* 3D Mouse Test.app */;
+			name = TestApp;
+			productName = "3D Mouse Test Host";
+			productReference = 92A0B5F3217C6CFA000B93FF /* TestApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,8 +117,14 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = mutexre;
 				TargetAttributes = {
-					92A0B5D7217C6B65000B93FF = {
+					92A0B5F2217C6CFA000B93FF = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -115,52 +141,44 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92A0B5D7217C6B65000B93FF /* 3D Mouse Test */,
+				92A0B5F2217C6CFA000B93FF /* TestApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		92A0B5D6217C6B65000B93FF /* Resources */ = {
+		92A0B5F1217C6CFA000B93FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A0B5DE217C6B66000B93FF /* art.scnassets in Resources */,
-				92A0B5E8217C6B6A000B93FF /* LaunchScreen.storyboard in Resources */,
-				92A0B5E5217C6B6A000B93FF /* Assets.xcassets in Resources */,
-				92A0B5E3217C6B66000B93FF /* Main.storyboard in Resources */,
+				92A0B5FF217C6CFB000B93FF /* Main.storyboard in Resources */,
+				92A0B5FC217C6CFB000B93FF /* Assets.xcassets in Resources */,
+				92A0B5FA217C6CFA000B93FF /* art.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		92A0B5D4217C6B65000B93FF /* Sources */ = {
+		92A0B5EF217C6CFA000B93FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A0B5E0217C6B66000B93FF /* GameViewController.swift in Sources */,
-				92A0B5DC217C6B66000B93FF /* AppDelegate.swift in Sources */,
+				92A0B5F8217C6CFA000B93FF /* ViewController.swift in Sources */,
+				92A0B5F6217C6CFA000B93FF /* AppDelegate.swift in Sources */,
+				92A0B60A217C918C000B93FF /* Mouse.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		92A0B5E1217C6B66000B93FF /* Main.storyboard */ = {
+		92A0B5FD217C6CFB000B93FF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				92A0B5E2217C6B66000B93FF /* Base */,
+				92A0B5FE217C6CFB000B93FF /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		92A0B5E6217C6B6A000B93FF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92A0B5E7217C6B6A000B93FF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,39 +300,60 @@
 			};
 			name = Release;
 		};
-		92A0B5ED217C6B6A000B93FF /* Debug */ = {
+		92A0B603217C6CFB000B93FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Sources/TestApp.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 859799LX22;
-				INFOPLIST_FILE = "3D Mouse Test/Info.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mutexre.-D-Mouse-Test";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mutexre.3D-Mouse-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		92A0B5EE217C6B6A000B93FF /* Release */ = {
+		92A0B604217C6CFB000B93FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Sources/TestApp.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 859799LX22;
-				INFOPLIST_FILE = "3D Mouse Test/Info.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mutexre.-D-Mouse-Test";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mutexre.3D-Mouse-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -330,11 +369,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92A0B5EC217C6B6A000B93FF /* Build configuration list for PBXNativeTarget "3D Mouse Test" */ = {
+		92A0B602217C6CFB000B93FF /* Build configuration list for PBXNativeTarget "TestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92A0B5ED217C6B6A000B93FF /* Debug */,
-				92A0B5EE217C6B6A000B93FF /* Release */,
+				92A0B603217C6CFB000B93FF /* Debug */,
+				92A0B604217C6CFB000B93FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
